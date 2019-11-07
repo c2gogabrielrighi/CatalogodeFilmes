@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Movie Catalog</string>
-    <string name="list_popular">Most popular</string>
     <string name="list_bestrated">Best rated</string>
     <string name="list_myfavourites">My favourites</string>
+    <string name="list_popular">Most popular</string>
     <string name="head_details">Details</string>
     <string name="page_similar">Similar movies</string>
     <string name="page_readmore">Read more</string>
