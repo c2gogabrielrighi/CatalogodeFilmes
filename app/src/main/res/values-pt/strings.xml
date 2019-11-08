@@ -2,9 +2,11 @@
 <resources>
     <string name="app_name">Catálogo de Filmes</string>
     <string name="list_bestrated">Melhor avaliados</string>
-    <string name="list_myfavourites">Meus favoritos</string>
+    <string name="list_myfavorites">Meus favoritos</string>
     <string name="list_popular">Mais populares</string>
     <string name="head_details">Detalhes</string>
     <string name="page_similar">Filmes similares</string>
     <string name="page_readmore">Ler mais</string>
+    <string name="image_poster">Pôster do filme</string>
+    <string name="list_details">Detalhes do filme</string>
 </resources>
