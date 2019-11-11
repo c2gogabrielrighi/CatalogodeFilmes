@@ -8,6 +8,7 @@ import android.widget.ImageView;
 
 import java.io.InputStream;
 
+// Trecho de código obtido a partir da seguinte fonte: https://medium.com/@crossphd/android-image-loading-from-a-string-url-6c8290b82c5e
 public class DownloadImage extends AsyncTask<String, Void, Bitmap> {
     ImageView bmImage;
 
