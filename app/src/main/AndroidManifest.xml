@@ -19,7 +19,7 @@
         </activity>
         <activity android:name=".MyFavoritesActivity">
         </activity>
-        <activity android:name=".BestRatedActivity">
+        <activity android:name=".TopRatedActivity">
         </activity>
         <activity android:name=".PopularActivity">
         </activity>

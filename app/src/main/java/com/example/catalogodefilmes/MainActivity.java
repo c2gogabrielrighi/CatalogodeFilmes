@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         btnBestRated.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent it = new Intent(MainActivity.this,BestRatedActivity.class);
+                Intent it = new Intent(MainActivity.this,TopRatedActivity.class);
                 startActivity(it);
             }
         });
