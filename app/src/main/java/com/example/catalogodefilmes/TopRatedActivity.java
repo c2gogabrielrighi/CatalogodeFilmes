@@ -24,7 +24,7 @@ public class TopRatedActivity extends AppCompatActivity {
         setTitle(R.string.list_bestrated);
 
         gridView = findViewById(R.id.grid_bestrated);
-
+/*
         HTTPService service = new HTTPService("top_rated", null);
         try {
             ArrayList<APIMovies> movies = service.execute().get();
@@ -38,5 +38,9 @@ public class TopRatedActivity extends AppCompatActivity {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        */
+
     }
+
+
 }
