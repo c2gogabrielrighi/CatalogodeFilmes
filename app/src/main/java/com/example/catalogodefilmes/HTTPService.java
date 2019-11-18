@@ -38,7 +38,7 @@ public class HTTPService extends AsyncTask<Void,Void,ArrayList<APIMovies>> {
             connection.setConnectTimeout(6000);
             connection.connect();
 
-            if(connection.getResponseCode() != 200) {
+            if(connection.getResponseCode() == 200) {
                 Scanner scanner = new Scanner(url.openStream());
                 while (scanner.hasNext()) {
 
