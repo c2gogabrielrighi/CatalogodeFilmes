@@ -1,6 +1,7 @@
 package com.example.catalogodefilmes;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
@@ -9,10 +10,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
 public class TopRatedActivity extends AppCompatActivity {
     GridView gridView;
+    ArrayList<APIMovies> movieList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -24,11 +27,12 @@ public class TopRatedActivity extends AppCompatActivity {
 
         HTTPService service = new HTTPService("top_rated", null);
         try {
-            APIMovies movies = service.execute().get();
-            for (APIMovies movie:movies
-                 ) {
+            ArrayList<APIMovies> movies = service.execute().get();
 
+            for(APIMovies movie : movies){
+                Log.i(null,movie.getTitle());
             }
+
         } catch (ExecutionException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
